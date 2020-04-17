@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="782ff896516a4efea9554b09e4d32afd" class="chart-container" style="width:1350px; height:800px;"></div>
+    <script>
+        var chart_782ff896516a4efea9554b09e4d32afd = echarts.init(
+            document.getElementById('782ff896516a4efea9554b09e4d32afd'), 'light', {renderer: 'canvas'});
+        var option_782ff896516a4efea9554b09e4d32afd = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "Deaths",
+            "data": [
+                25832.0,
+                18056.0,
+                21067.0,
+                15748.0,
+                3294.0,
+                12129.0,
+                3341.0,
+                4683.0,
+                1403.0,
+                4157.0,
+                2955.0,
+                900.0,
+                1174.0,
+                1532.0,
+                170.0,
+                567.0,
+                384.0,
+                123.0,
+                393.0,
+                406.0
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "color": "#FF6D00"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Deaths"
+            ],
+            "selected": {
+                "Deaths": true
+            },
+            "show": true,
+            "right": 5,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "name": "Country/\nRegion",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "US",
+                "Spain",
+                "Italy",
+                "France",
+                "Germany",
+                "UK",
+                "Mainland China",
+                "Iran",
+                "Turkey",
+                "Belgium",
+                "Netherlands",
+                "Canada",
+                "Switzerland",
+                "Brazil",
+                "Russia",
+                "Portugal",
+                "Austria",
+                "Israel",
+                "India",
+                "Ireland"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "Number of cases",
+            "show": true,
+            "scale": false,
+            "nameLocation": "center",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Deaths Number of Top 20 Confirmed Count Countries",
+            "subtext": "from 01/22/2020 to 04/14/2020",
+            "top": 0
+        }
+    ]
+};
+        chart_782ff896516a4efea9554b09e4d32afd.setOption(option_782ff896516a4efea9554b09e4d32afd);
+    </script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="34553e0d46544bc7b44167e0402009ab" class="chart-container" style="width:1350px; height:800px;"></div>
+    <script>
+        var chart_34553e0d46544bc7b44167e0402009ab = echarts.init(
+            document.getElementById('34553e0d46544bc7b44167e0402009ab'), 'light', {renderer: 'canvas'});
+        var option_34553e0d46544bc7b44167e0402009ab = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "Confirmed",
+            "data": [
+                607670.0,
+                172541.0,
+                162488.0,
+                131361.0,
+                131359.0,
+                94845.0,
+                82249.0,
+                74877.0,
+                65111.0,
+                31119.0,
+                27580.0,
+                27035.0,
+                25936.0,
+                25262.0,
+                21102.0,
+                17448.0,
+                14226.0,
+                12046.0,
+                11487.0,
+                11479.0
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "color": "#FF5252"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Confirmed"
+            ],
+            "selected": {
+                "Confirmed": true
+            },
+            "show": true,
+            "right": 5,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "name": "Country/\nRegion",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "US",
+                "Spain",
+                "Italy",
+                "France",
+                "Germany",
+                "UK",
+                "Mainland China",
+                "Iran",
+                "Turkey",
+                "Belgium",
+                "Netherlands",
+                "Canada",
+                "Switzerland",
+                "Brazil",
+                "Russia",
+                "Portugal",
+                "Austria",
+                "Israel",
+                "India",
+                "Ireland"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "Number of cases",
+            "show": true,
+            "scale": false,
+            "nameLocation": "center",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Confirmed Number of Top 20 Confirmed Count Countries",
+            "subtext": "from 01/22/2020 to 04/14/2020",
+            "top": 0
+        }
+    ]
+};
+        chart_34553e0d46544bc7b44167e0402009ab.setOption(option_34553e0d46544bc7b44167e0402009ab);
+    </script>
+</body>
+</html>
