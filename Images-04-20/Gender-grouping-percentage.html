@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="90302418c8864c99b250e369f65ac780" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_90302418c8864c99b250e369f65ac780 = echarts.init(
+            document.getElementById('90302418c8864c99b250e369f65ac780'), 'light', {renderer: 'canvas'});
+        var option_90302418c8864c99b250e369f65ac780 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "Not Reported",
+                    "value": 0.904
+                },
+                {
+                    "name": "Female",
+                    "value": 0.042
+                },
+                {
+                    "name": "Male",
+                    "value": 0.054
+                }
+            ],
+            "radius": [
+                "40%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "roseType": "percentages",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}: {c}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Not Reported",
+                "Female",
+                "Male"
+            ],
+            "selected": {},
+            "show": true,
+            "right": 10,
+            "top": 50,
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "COVID-19 Confirmed Gender Group",
+            "subtext": "from 01/22/2020 to 04/20/2020"
+        }
+    ]
+};
+        chart_90302418c8864c99b250e369f65ac780.setOption(option_90302418c8864c99b250e369f65ac780);
+    </script>
+</body>
+</html>

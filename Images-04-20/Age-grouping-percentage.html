@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="48071988bdbf4dc19549ff8045f26e9b" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_48071988bdbf4dc19549ff8045f26e9b = echarts.init(
+            document.getElementById('48071988bdbf4dc19549ff8045f26e9b'), 'light', {renderer: 'canvas'});
+        var option_48071988bdbf4dc19549ff8045f26e9b = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "0-10",
+                    "value": 0.03
+                },
+                {
+                    "name": "11-20",
+                    "value": 0.025
+                },
+                {
+                    "name": "21-30",
+                    "value": 0.136
+                },
+                {
+                    "name": "31-40",
+                    "value": 0.19
+                },
+                {
+                    "name": "41-50",
+                    "value": 0.249
+                },
+                {
+                    "name": "51-60",
+                    "value": 0.176
+                },
+                {
+                    "name": "61-70",
+                    "value": 0.124
+                },
+                {
+                    "name": "71-80",
+                    "value": 0.051
+                },
+                {
+                    "name": "81-100",
+                    "value": 0.019
+                }
+            ],
+            "radius": [
+                "40%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "roseType": "percentages",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}: {c}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "0-10",
+                "11-20",
+                "21-30",
+                "31-40",
+                "41-50",
+                "51-60",
+                "61-70",
+                "71-80",
+                "81-100"
+            ],
+            "selected": {},
+            "show": true,
+            "right": 10,
+            "top": 50,
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "COVID-19 Confirmed Age Group",
+            "subtext": "from 01/22/2020 to 04/20/2020"
+        }
+    ]
+};
+        chart_48071988bdbf4dc19549ff8045f26e9b.setOption(option_48071988bdbf4dc19549ff8045f26e9b);
+    </script>
+</body>
+</html>
